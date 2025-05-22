@@ -1,0 +1,21 @@
+{
+  "name": "plwrt-auto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "simple": "npx playwright test rsassignment.spec.js --headed --reporter=html && npx playwright show-report",
+  "urs": "npx playwright test Urshipper --headed --reporter=html && npx playwright show-report",
+  "urs-wk": "npx playwright test urshipper --config=urs.config.js --reporter=html && npx playwright show-report"
+
+    
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1"
+  }
+}

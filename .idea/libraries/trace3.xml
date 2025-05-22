@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="trace3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/test-results/US-UrShipper-Create-Order-Ship-to-firefox/trace.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
