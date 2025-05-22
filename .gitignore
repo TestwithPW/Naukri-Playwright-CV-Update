@@ -1,7 +1,16 @@
-
-# Playwright
+# Node.js dependencies
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
+
+# Playwright artifacts
+playwright-report/
+test-results/
+
+# IDE settings (e.g., for IntelliJ IDEA/WebStorm)
+.idea/
+
+# Logs or temporary files (if you have any)
+*.log
+.DS_Store # macOS specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
