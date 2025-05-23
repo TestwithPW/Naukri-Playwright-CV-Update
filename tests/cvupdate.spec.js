@@ -35,8 +35,6 @@ test.describe('UrShipper', () => {
             await page.getByRole('img', { name: 'naukri user profile img' }).click();
             await expect(page.getByRole('link', { name: 'View & Update Profile' })).toBeVisible();
             await page.getByRole('link', { name: 'View & Update Profile' }).click();
-            
-
             await expect(page.getByRole('button', { name: 'Update resume' })).toBeVisible();
 
             // Construct the absolute path to your CV
